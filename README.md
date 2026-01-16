@@ -94,28 +94,6 @@ pip freeze > requirements.txt
 
 ---
 
-## ✅ Testing Checklist
-
-- [ ] Start the server and visit the root page
-- [ ] Create a new task
-- [ ] Edit a task
-- [ ] Mark a task as completed and confirm it appears on `/completed`
-- [ ] Delete a task
-
----
-
-## 📦 Deployment Notes
-
-For production, consider using a WSGI server (e.g., Gunicorn on Linux) and a more robust DB (Postgres, etc.). Adjust config and disable debug mode.
-
----
-
-## 📫 Contributing
-
-Contributions are welcome — please open an issue or a PR.
-
----
-
 ## 📝 License
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
